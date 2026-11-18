@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+title: "ESP32-CAM drowsiness detection and ESP-NN fully connected kernel fault: code and data"
+authors:
+  - family-names: Azhar
+    given-names: Ryfial
+    orcid: "https://orcid.org/0009-0008-8818-2481"
+    affiliation: "Universitas Tadulako"
+  - family-names: Jayanto
+    given-names: Deni Luvi
+    affiliation: "Universitas Tadulako"
+  - family-names: Santi
+    given-names: Dessy
+    affiliation: "Universitas Tadulako"
+  - family-names: Akbar
+    given-names: Muhammad
+    affiliation: "Universitas Tadulako"
+  - family-names: Anshori
+    given-names: Yusuf
+    affiliation: "Universitas Tadulako"
+license: MIT
+repository-code: "https://github.com/ryfialazhar/esp32cam-drowsiness-detection"

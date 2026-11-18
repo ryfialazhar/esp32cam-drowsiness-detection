@@ -1,0 +1,18 @@
+Host differential test, 2026-11-17
+
+Tables II/III: deployed model, 7 synthetic inputs, compared with the reference build
+espnn                            inputs=7 label_agreement=42.9% max_abs_score_diff=0.90625
+espnn_ref_conv                   inputs=7 label_agreement=42.9% max_abs_score_diff=0.90625
+espnn_ref_depthwise_conv         inputs=7 label_agreement=42.9% max_abs_score_diff=0.90625
+espnn_ref_add                    inputs=7 label_agreement=42.9% max_abs_score_diff=0.90625
+espnn_ref_softmax                inputs=7 label_agreement=42.9% max_abs_score_diff=0.90625
+espnn_ref_fully_connected        inputs=7 label_agreement=100.0% max_abs_score_diff=0.00000
+espnn_V4                         inputs=7 label_agreement=100.0% max_abs_score_diff=0.00000
+
+Table V: 57 inputs (7 synthetic + 50 random smooth images), compared with each model's reference build
+mobilenetv2_0.35 (deployed) original lines   inputs=57 label_agreement=84.2% max_abs_score_diff=0.99609
+mobilenetv2_0.35 (deployed) fixed lines      inputs=57 label_agreement=100.0% max_abs_score_diff=0.00000
+mobilenetv1_0.25 original lines              inputs=57 label_agreement=100.0% max_abs_score_diff=0.00000
+mobilenetv1_0.25 shipped (fixed) lines       inputs=57 label_agreement=100.0% max_abs_score_diff=0.00000
+mobilenetv2_0.1 original lines               inputs=57 label_agreement=93.0% max_abs_score_diff=0.74609
+mobilenetv2_0.1 shipped (fixed) lines        inputs=57 label_agreement=100.0% max_abs_score_diff=0.00000
